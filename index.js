@@ -1,8 +1,9 @@
 module.exports = {
     "parser": "babel-eslint",
-    "extends": ["airbnb", "plugin:react/recommended"],
+    "extends": ["airbnb", "plugin:react/recommended", "prettier", "prettier/react"],
     "plugins": [
-        "react"
+        "react",
+        "prettier"
     ],
     "globals": {
         "window": true,
@@ -11,6 +12,9 @@ module.exports = {
         "navigator": true
     },
     "rules": {
+        "prettier/prettier": ["error", {
+            "tabWidth": 4
+        }],
         "import/prefer-default-export": 0,
         "operator-linebreak": 0,
         "react/jsx-closing-bracket-location": 0,
