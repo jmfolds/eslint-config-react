@@ -13,7 +13,8 @@ module.exports = {
     },
     "rules": {
         "prettier/prettier": ["error", {
-            "tabWidth": 4
+            "tabWidth": 4,
+            "singleQuote": true
         }],
         "import/prefer-default-export": 0,
         "operator-linebreak": 0,
@@ -21,9 +22,7 @@ module.exports = {
         "react/jsx-one-expression-per-line": 0,
         "linebreak-style": 0,
         "no-param-reassign": 0,
-        "indent": [2, 4, {
-            "ignoredNodes": ["JSXElement *"]
-        }],
+        "indent": [2, 4],
         "no-unused-vars": 1,
         "quotes": [2, "single", {
             "avoidEscape": true,
@@ -31,6 +30,8 @@ module.exports = {
         }],
         "quote-props": [2, "consistent"],
         "no-console": 0,
+        "no-debugger": 0,
+        "no-alert": 0,
         "react/jsx-indent": [2, 4],
         "react/jsx-indent-props": [0, 4],
         "react/destructuring-assignment": "off",
