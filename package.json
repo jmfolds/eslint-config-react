@@ -2,7 +2,7 @@
   "name": "@jmfolds/eslint-config-react",
   "author": "Jeremy Folds <jmfolds@gmail.com>",
   "license": "ISC",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,6 @@
   },
   "peerDependencies": {
     "eslint": ">= 6"
-  }
+  },
+  "keywords": ["eslint", "eslintconfig"]
 }
