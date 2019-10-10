@@ -1,0 +1,27 @@
+{
+  "name": "@jmfolds/eslint-config-react",
+  "author": "Jeremy Folds <jmfolds@gmail.com>",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmfolds/eslint-config-react.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.0.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6"
+  }
+}

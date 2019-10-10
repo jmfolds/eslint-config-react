@@ -1,0 +1,1 @@
+a reusable eslint configuration
