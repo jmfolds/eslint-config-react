@@ -3,6 +3,7 @@ module.exports = {
     "extends": ["airbnb", "plugin:react/recommended", "prettier", "prettier/react"],
     "plugins": [
         "react",
+        "react-hooks",
         "prettier"
     ],
     "globals": {
@@ -28,6 +29,8 @@ module.exports = {
         "no-console": 0,
         "no-debugger": 0,
         "no-alert": 0,
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
         "react/jsx-one-expression-per-line": 0,
         "react/jsx-closing-bracket-location": 0,
         "react/destructuring-assignment": "off",
