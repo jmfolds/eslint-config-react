@@ -10,7 +10,7 @@ Run the following to install everything needed:
 # Update
 
 Remove previous dependencies:
-```npm uninstall --save-dev prettier eslint-config-prettier eslint-plugin-prettier babel-eslint eslint eslint-config-airbnb eslint-import-resolver-webpack eslint-plugin-import eslint-plugin-jsx-ally eslint-plugin-react eslint-plugin-react-hooks @jmfolds/eslint-config-react``` 
+```npm uninstall --save-dev prettier eslint-config-prettier eslint-plugin-prettier babel-eslint eslint eslint-config-airbnb eslint-import-resolver-webpack eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks @jmfolds/eslint-config-react``` 
 
 Re-install dependencies:
 ```npx install-peerdeps --dev @jmfolds/eslint-config-react```
